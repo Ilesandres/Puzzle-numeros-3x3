@@ -6,14 +6,14 @@ Este es un proyecto de un juego de puzzle numérico 3x3 desarrollado en HTML, CS
 
 ## 📋 Tabla de contenidos
 
-- [📦 Instalación](# 📦 Instalación)
+- [📦 Instalación](#📦Instalación)
 - [🚀 Uso](#uso)
 - [📁 Estructura del Proyecto](#estructura-del-proyecto)
 - [✨ Características](#características)
 - [🤝 Contribuciones](#contribuciones)
 - [📝 Licencia](https://github.com/Ilesandres)
 
-## 📦 Instalación
+##📦Instalación
 
 1. Clona el repositorio a tu máquina local:
    ```bash
