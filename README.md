@@ -11,7 +11,7 @@ Este es un proyecto de un juego de puzzle numérico 3x3 desarrollado en HTML, CS
 - [📁 Estructura del Proyecto](#estructura-del-proyecto)
 - [✨ Características](#características)
 - [🤝 Contribuciones](#contribuciones)
-- [📝 Licencia](#licencia)
+- [📝 Licencia](https://github.com/Ilesandres)
 
 ## 📦 Instalación
 
