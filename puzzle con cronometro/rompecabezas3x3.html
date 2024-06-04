@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>puzzle-num-3x3</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js " > </script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+</head>
+
+<body >
+  
+  <div class="fondo">
+    <script src="PUZZLE.js"></script>
+  <header>
+    <!-- place navbar here -->
+  </header >
+  <h1  class="titulo">PUZZLE</h1><br>
+
+  <div class="reloj" id="contenedor">
+    <div class="reloj" id="Horas">00</div>
+    <div class="reloj" id="Minutos">:00</div>
+    <div class="reloj" id="Segundos">:00</div>
+    <div class="reloj" id="Centesimas">:00</div>
+  </div>
+<br><br>
+  <h3 class="sub1"> DATOS AL AZAR</h3>
+  <div class="table">
+    <div class="bt3-1">
+      <br><button onclick="b1()" class="bt1" id="n1" ></button>
+      <button onclick="b2()" class="bt1" id="n2" ></button>
+      <button onclick="b3()" class="bt1" id="n3" ></button><br><br>
+      <button onclick="b4()"  class="bt1" id="n4" ></button>
+      <button onclick="b5()" class="bt1" id="n5" ></button>
+      <button onclick="b6()"  class="bt1" id="n6" ></button><br><br>
+      <button onclick="b7()" class="bt1" id="n7" ></button>
+      <button onclick="b8()" class="bt1" id="n8" ></button>
+      <button onclick="b9()" class="bt1" id="n9"></button><br>
+    </div>
+  </div>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+<br>
+<div class="text_2">
+  <h2>MOVIMIENTOS</h2>
+</div>
+<div class="movimientos">
+  <button class="btmv" id="mov">0</button>
+  <div class="b"><br>
+    <input class="boton1" onclick="inicio()" type="button"  value="iniciar" >
+  </div>
+</div>
+</div>
+
+</body>
+
+</html>
+
+<style>
+
+  .reloj{
+    float: left;
+    font-size: 30px;
+    font-family: Courier,sans-serif;
+    color: #363431;
+    align-items:flex-end;
+    background: #d77272;
+  }
+  
+  .tabla{
+    text-align:center;
+    align-items: flex-end;
+  }
+  .text_2{
+    align-items: center;
+    text-align: center;
+    color:#6e7c8f;
+  }
+
+  .btmv{
+    text-align: center;
+    padding: 15px 40px;
+    font-size: #d77272;
+    background: #6e7c8f;
+  }
+  .movimientos{
+    text-align: center;
+    display:flow-root;
+  }
+  .titulo{
+    text-align: center;
+    color: #6e7c8f;
+  }
+
+  .sub1{
+    text-align: center;
+    align-items: center;
+    color: #6e7c8f;
+  }
+  .bt1{
+    padding: 30px 62px;
+    background-color: rgb(150, 218, 218);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  .bt3-1{
+    text-align: center;
+    align-items: center;
+  }
+  
+
+  .b{
+        text-align: center;
+  }
+   .boton1{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    cursor:pointer;
+}
+  
+    td {
+      border: 1px solid #141414;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      font-size: 48px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+    .fondo{
+      border-width: 0px 0px;
+    }
+  
+  </style>
